@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10dp"
+        android:text="Da li ste sigurni da zelite da izbrisete?"
+        android:textStyle="bold"
+        android:id="@+id/txt"
+        android:textSize="20sp"
+        android:gravity="clip_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/ne"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Ne"
+        android:layout_below="@+id/txt"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/da"
+       android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignEnd="@+id/ne"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Da"
+        android:layout_below="@+id/txt"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</RelativeLayout>
